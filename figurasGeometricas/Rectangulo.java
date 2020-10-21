@@ -16,7 +16,7 @@ public class Rectangulo extends Figura {
 	}
 
 	@Override
-	public double getArea() {
+	public Double getArea() {
 		double base =Math.abs(super.getUbicacion().getX()-this.p2.getX());
 		double altura=Math.abs(super.getUbicacion().getY()-this.p2.getY());
 		return base * altura;

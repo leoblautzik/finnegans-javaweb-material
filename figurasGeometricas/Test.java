@@ -1,5 +1,7 @@
 package figurasGeometricas;
 
+import java.util.Arrays;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -14,8 +16,13 @@ public class Test {
 		
 		for(Figura f : figuras)
 			System.out.println(f.getArea());
+			
+		System.out.println("------------------------------------");
 		
+		Arrays.sort(figuras);
 		
+		for(Figura f : figuras)
+			System.out.println(f.getColor());
 		
 		
 		

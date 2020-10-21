@@ -22,7 +22,7 @@ public class Elipse extends Figura {
 //	}
 	
 	@Override
-	public double getArea() {
+	public Double getArea() {
 		return a * b * Math.PI;
 	}
 
